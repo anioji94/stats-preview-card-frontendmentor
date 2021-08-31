@@ -1,0 +1,38 @@
+:root {
+    /* Colors */
+    --vDarkBlue: hsl(233, 47%, 7%);
+    --desatDarkBlue: hsl(244, 38%, 16%);
+    --softViolet: hsl(277, 64%, 61%);
+
+    --white: hsl(0, 0%, 100%);
+    --mainTransparentWhite: hsla(0, 0%, 100%, 0.75);
+    --statTransparentWhite: hsla(0, 0%, 100%, 0.6);
+
+    /* Typography */
+    --fontSize: 15px;
+
+    --fontFamily: [Inter](https://fonts.google.com/specimen/Inter);
+    --fontWeights: 400, 700;
+
+    --fontFamily2: [Lexend Deca](https://fonts.google.com/specimen/Lexend+Deca);
+    --fontWeights2: 400;
+}
+
+body {
+    background-color: var(--vDarkBlue);
+}    
+
+h1 {
+    color: var(--white);
+}
+
+p {
+    color: var(--mainTransparentWhite);
+}
+
+
+#card {
+    background-color: var(--desatDarkBlue);
+}
+
+
